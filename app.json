@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Restaurant Manager",
+    "slug": "restaurant-management-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#E07B39"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.restaurantmanager.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E07B39"
+      },
+      "package": "com.restaurantmanager.app"
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow Restaurant Manager to access your camera to photograph menu items.",
+          "photosPermission": "Allow Restaurant Manager to access your photos to select menu item images."
+        }
+      ]
+    ]
+  }
+}
